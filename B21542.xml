@@ -1,0 +1,860 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A musick-lector, or, The art of musick (that is so much vindicated in Christendome) discoursed of by way of dialogue between three men of several judgments the one a musician and master of that art, and zealous for the Church of England ..., the other a Baptist ..., the other a Quaker (so called) ... / written by Solomon Eccles.</title>
+            <author>Eccles, Solomon, 1618-1683.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1667</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 70 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B21542</idno>
+            <idno type="STC">Wing E129</idno>
+            <idno type="EEBO-CITATION">11209887</idno>
+            <idno type="OCLC">ocm 11209887</idno>
+            <idno type="VID">204909</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B21542)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 204909)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1440:26)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A musick-lector, or, The art of musick (that is so much vindicated in Christendome) discoursed of by way of dialogue between three men of several judgments the one a musician and master of that art, and zealous for the Church of England ..., the other a Baptist ..., the other a Quaker (so called) ... / written by Solomon Eccles.</title>
+                  <author>Eccles, Solomon, 1618-1683.</author>
+               </titleStmt>
+               <extent>28 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1667.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Music and morals.</term>
+               <term>Music --  Social aspects.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-12</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2013-12</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:204909:1"/>
+            <pb facs="tcp:204909:1" rendition="simple:additions"/>
+            <p>A Muſick-Lector: OR, The Art of MUSICK (that is ſo much vindicated in <hi>Chriſtendome</hi>) Diſcourſed of, by way of Dialogue between three men of ſeveral Judg<g ref="char:EOLhyphen"/>ments:</p>
+            <p>The one a MUSICIAN, and Maſter of that Art, and zealous for the Church of <hi>England;</hi> who calls Muſick <hi>The gift of God.</hi>
+            </p>
+            <p>The other a BAPTIST, who did affirm it to be <hi>a decent and a harmleſs practice.</hi>
+            </p>
+            <p>The other a QUAKER (ſo called) being for<g ref="char:EOLhyphen"/>merly of that Art, doth give his Judgment and Sentence againſt it; but yet approves of the Muſick that pleaſeth God.</p>
+            <p>Written by SOLOMON ECCLES.</p>
+            <q>Wo to them that are at eaſe in Sion, to you that put far away the evil day, and cauſe the ſeat of violence to come near; to them that lie up<g ref="char:EOLhyphen"/>on Beds of Ivory, and ſtretch themſelves upon their Couches, and eat the Lambs out of the flock, and the Calves out of the ſtall: That chant to the ſound of the Viol, and invent to themſelves Inſtruments of Muſick like David: That drink Wine in Bowls, and anoint them<g ref="char:EOLhyphen"/>ſelves with the chief Ointment: but they are not grieved for the Afflictions of Joſeph.
+<bibl>Amos 6. 1, 3, 4, 5, 6.</bibl>
+            </q>
+            <p>
+               <hi>London,</hi> Printed in the Year, 1667.</p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:204909:2" rendition="simple:additions"/>
+            <pb n="3" facs="tcp:204909:2"/>
+            <head>A Muſick Lector: <hi>OR,</hi> The Art of <hi>MUSICK</hi> that is ſo much vindicated in <hi>Chriſtendom,</hi> diſcourſed of by way of Dialogue, between three men of ſeveral judgments.</head>
+            <sp>
+               <speaker>Muſitian.</speaker>
+               <p>WEll Friend, we underſtand that all men in <hi>Chriſtendom</hi> generally do acknowledge <hi>Muſick</hi> to be a pleaſant and heavenly harmony, which delights the ears of all the No<g ref="char:EOLhyphen"/>bility, both Kings, Princes and others, yet all will not do; for there be ſome men are quite againſt it. But O how no<g ref="char:EOLhyphen"/>tably did the Gentleman handle the matter in this <hi>Muſick Lector</hi> for the vindication thereof, but all will not do.</p>
+            </sp>
+            <sp>
+               <speaker>Baptiſt.</speaker>
+               <p>Why, who are they that can ſpeak againſt this harmleſs Calling in the practice of Muſick? is there any think you?</p>
+            </sp>
+            <sp>
+               <speaker>Muſ.</speaker>
+               <p>Yes; for yonder goes a man, was once a Maſter of <hi>Mu<g ref="char:EOLhyphen"/>ſick,</hi> and a very honeſt man once; but now he's turn'd <hi>Quaker:</hi> Prethee Friend let's know his ground and reaſon for it, and let's ſee what principle they hold.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Friend, beware; for <hi>Quakers</hi> hold dangerous tenets.</p>
+            </sp>
+            <sp>
+               <speaker>Muſ.</speaker>
+               <p>Pray what dangerous tenets do they hold, that we may beware of them: we muſt not accuſe them before we hear them; pray will you inſtance.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Why one of their dangerous tenets is, <hi>That a man may be perfect and free from ſin on this ſide the grave:</hi> and another is, <hi>They deny Ordinances, or the two Sacraments, the Baptiſm of Water, and Bread and Wine:</hi> and another is, <hi>That a man may fall away after he believeth.</hi> Thoſe are horrid tenets.</p>
+            </sp>
+            <sp>
+               <speaker>Muſ.</speaker>
+               <p>Theſe are ſtrange tenets indeed. However, he's my old Acquaintance, let's venture now we have an opportunity, though I ſhould have been afraid to have ventur'd alone; but you being
+<pb n="4" facs="tcp:204909:3"/> with me, I do not queſtion but we ſhall convince him of his error: how think you?</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>We ſhall but trouble our ſelves with him: for there is nothing but <hi>thee</hi> and <hi>thou;</hi> they are the unmannerlieſt people that ever came.</p>
+            </sp>
+            <sp>
+               <speaker>Muſ.</speaker>
+               <p>Peace a little. <hi>Your humble Servant, Sir; I am glad to ſee you well.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Quaker.</speaker>
+               <p>Leave off thy deceit, <hi>Pſal.</hi> 10. 7.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly Sir, I am very joyful to ſee you, for I have not ſeen you of a long time.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Mind the Witneſs of God in thee, <hi>John</hi> 1. 5, 9.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>You ſay very well, Sir; but what do you mean by the Wit<g ref="char:EOLhyphen"/>neſs of God, what is it?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Something that God hath placed in thee, which bears witneſs for God; <hi>Acts</hi> 14. 7.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But what do you call this Witneſs of God?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>He that witneſſeth for God in every man, is Chriſt; <hi>Rev.</hi> 1. 5.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But is Chriſt within a man; how can that be? for he is glorified with the Father in Heaven: what ſtrange doctrine do you preach?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Search and try thy own ſelf: for, <hi>knoweſt thou not how that<g ref="char:punc">▪</g> Jeſus Chriſt is in thee, except thou be a Reprobate?</hi> 2 Cor. 13. 5.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>You are right for that indeed. But why do you bid me leave off my deceit; for what deceit can you charge me with?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Yes: for the firſt word thou ſpakeſt was deceit and vain; for thou ſaidſt, <hi>Your humble Servant, Sir,</hi> and thou waſt never my Servant: for when did I ever ſet thee at work, and thou waſt my humble Servant? Muſt thou not give an account for every idle word? beſides, <hi>he that respects mens perſons, commits ſin;</hi> Jam. 2. 9.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But you know it is our cuſtom in <hi>England</hi> ſo to do; and you have done ſo your ſelf to my knowledge.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>I do confeſs that I was in the dark, and had mens perſons in admiration: but now the true Light is come which reproves for thoſe things, glory be to the Lord for ever. And <hi>whatſoever makes manifeſt is Light, Eph.</hi> 5. 13.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But methinks you do not ſpeak like other men; for I ne<g ref="char:EOLhyphen"/>ver heard of the <hi>Light within</hi> till you Quakers came.</p>
+            </sp>
+            <sp>
+               <pb n="5" facs="tcp:204909:3"/>
+               <speaker>Qu.</speaker>
+               <p>Turn to it now, and be obedient, and it will bring thee out of the fall, and deliver thee from deſtruction and perdition; 2 <hi>Tim.</hi> 6. 9.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Why our Miniſters and Fathers of the Church of <hi>England,</hi> are the true Miniſters of Chriſt no doubt; yet they do not bid men turn to the Light within, as you <hi>Quakers</hi> do.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Fathers of the Church of <hi>England,</hi> we grant they are, and ſome of them Miniſters of the Letter alſo; but if thou couldſt prove them the Miniſters of Chriſt, thou wouldſt do them great ſervice; for they cannot prove it themſelves: and they dare not for ſhame ſay that they are Miniſters of Chriſt, becauſe they re<g ref="char:EOLhyphen"/>ceive the wages of unrighteouſneſs; <hi>Jude</hi> 11.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Pray good Sir give me favour; muſt we not acknowledge them to be the Miniſters of Chriſt who preach the Goſpel, and prove their Miniſtry by Scripture?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>The Scriptures prove no man a Miniſter of Chriſt, but he that is called of God, and choſen for that work; <hi>Rom. 1. 1. 1 Cor. 1. 1. 1 Pet. 1. 1. 2 Pet.</hi> 1. 1. Theſe were not of men, nor by men, but by Jeſus Chriſt and God the Father, <hi>Jam. 1. 1. Gal.</hi> 1. 1.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Lord bleſs me! why is not the Scripture the Word of God, and a Rule for men to walk by? and do they not fetch all their Proofs from Scripture? and all their building is on the Scripture<g ref="char:punc">▪</g> therefore we hear them: For they that are of God do hear God's Word, do they not?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Yea, they that are of God do hear God's Word: but we cannot hear them, becauſe they preach not God's Word, becauſe they ſtand not in God's Counſel, as ſaith the Lord to <hi>Jeremi<g ref="char:EOLhyphen"/>ah</hi> concerning the Prieſts: For, <hi>if they had ſtood in my Counſel,</hi> ſaith the Lord, <hi>they ſhould have taught the people my Word, and have turned them from their evil wayes, and from the evil of their doings.</hi> Mark, they that are Miniſters of God's Word, do turn people from their evil wayes, and from the evil of their doings. <hi>Jer:</hi> 23. 22. And it is my Faith for ever, and I'le give my Voice for it, that they are the true Miniſters of Chriſt, <hi>that turn people from darkneſs to Light, and from the power of Satan to God.</hi> Act. 26. 28.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>I muſt confeſs our Miniſters are great Scholars as <hi>Oxford</hi> and <hi>Cambridge</hi> can afford, and we look upon ſuch to be the Mini<g ref="char:EOLhyphen"/>ſters of the Goſpel and none elſe; but yet I cannot ſay they turn
+<pb n="6" facs="tcp:204909:4"/> people from their ſins: But pray are there no true Miniſters of Chriſt but they?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Nay, none can be ſaid to be Miniſters of Chriſt, but ſuch as turn people to the Lord.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Why who then did ſend them? came they of themſelves?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>
+                  <hi>I never ſent them,</hi> ſaith the Lord, <hi>yet they run: but they ſhall not profit the people at all;</hi> Jer. 23. 22.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly I think they have been much better than they are now.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Yea, they have loſt their Courage, their Faith, and their Zeal; and ſome of them have ſpued up the <hi>Common-Prayer-Book</hi> in their Zeal; but now they have (many of them) lickt it up again. See what the Prophet calls ſuch, <hi>Iſa.</hi> 56. 10.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Indeed our Miniſters do love their bellies too well to be the Miniſters of Chriſt. Truly Friend, I cannot ſpeak much for them: I ſee they feed their flock but ſparingly, but themſelves they feed without fear I think, for they grow in belly amain: but what ſhall I ſay, when ſuch men as they go wrong, what ſhall be<g ref="char:EOLhyphen"/>come of me that am a ſinner?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Believe in the Light that ſhines in thy heart; for that Teacher will never deceive thee, but will make thee wiſer than all thy Teachers; <hi>Pſal.</hi> 119. 99, 100.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Your counſel is good: but me-thoughts you were a very honeſt man and ſtrict before you were a <hi>Quaker;</hi> if I were ſo, I ſhould deſire no more.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>I had a Zeal, but not according to Knowledge; and all that I have given up to the Bats and to the Moles; ſuch as come not forth to look on the Sun, for fear of perſecution. <hi>Joh. 10. 1. 1 Tim. 2. 3, 12. Iſa.</hi> 2. 20.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>'Tis good to avoid Perſecution as near as we can, for the Scriptures adviſe us ſo to do.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>The Thief and the Robber would climb up ſome other way; but <hi>all that will live godly in Chriſt Jeſus ſhall ſuffer Perſecution.</hi> 2 Tim. 3. 12.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But Chriſt ſayes, <hi>If they perſecute you in one City, flee into another.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Before the Holy Ghoſt was given, which was the promiſe of the Father, they were more in fear, and in the Childs ſtate, till
+<pb n="7" facs="tcp:204909:4"/> our Lord and Maſter was offered up for a pattern to them; then the ſame Spirit of Chriſt came into them, and made them of the ſame mind for holy boldneſs and courage; and, <hi>they loved not their lives to the death;</hi> and <hi>as Chriſt ſuffered in the fleſh, they do arm themſelves with the ſame mind. 1 Pet.</hi> 4. 1.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Well: but my Friend I have ſomething elſe to ſay to you, and I will leave theſe things to my Friend here, who is better able to anſwer you than I can. But pray let me ask you one queſtion.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Uſe thy freedom.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Why did you forſake and diſpiſe ſo harmleſs a Calling and Practice in the Art of <hi>Muſick</hi> as you have done? Beſides, you burnt and brake many good Inſtruments of Muſick, and burnt your Books of great price and value? and why did you burn and break them at <hi>Tower-Hill?</hi> I thought to tell you of it, for it was an injurious thing, to make our Calling contemptible. And it is well known that <hi>Muſick is the gift of God,</hi> and an honourable pra<g ref="char:EOLhyphen"/>ctice. I wonder you were not aſhamed; a man that lived ſo well and civilly, to go and caſt off ſuch a Livelihood, who maintained your Wife and Family very well and in good order; and it is very probable, if you had continued, you had been of great eſteem at this day.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>I have found out the true Teacher, who teaches the beſt Muſick that ever any did learn; who for rarity and skill out-ſtrips all that ever had a name; and ſuch Muſick as takes in the ears of God himſelf. <hi>Jer.</hi> 9. 24.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Lord bleſs me! is there ſuch a rare Muſick-teacher among the <hi>Quakers?</hi> I have heard indeed, that the <hi>Quakers</hi> will come together in one place, and ſit an hour, two or three, and not ſpeak a word one to another, except ſigh, groan or weep; do you call this good Muſick?</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Pray Friend, what ground of Scripture have you to come together, where ſome do ſigh and groan, and ſome do weep. What Edification is there in this dumb ſhow?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>
+                  <hi>The Spirit breathes in whom it listeth, and thou mayest hear the ſound thereof, but knoweſt not from whence it comes, nor whither it goes,</hi> John 3.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Did you ever hear ſuch Nonſenſe as this man ſpeaks? what ſtrange ſtuff is this? did I not tell you, Sir, what Nonſenſe we ſhould have?</p>
+            </sp>
+            <sp>
+               <pb n="8" facs="tcp:204909:5"/>
+               <speaker>Qua.</speaker>
+               <p>Are the Scriptures Nonſenſe?</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Hold, hold, my Friend, and be not offended at him, for he hath ſpoke Scripture; only ſome Tranſlations do much differ.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>All that I grant is true: but what Scripture hath he to prove that Silent-meeting is a Worſhip of God?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>The three Friends of <hi>Job,</hi> when they beheld what miſery he lay in, they lift up their voice and wept, and rent their cloaths indeed, and ſat down on the ground with him, <hi>but ſpake nothing one to another for ſeven dayes, and ſeven nights;</hi> Job 2. <hi>laſt.</hi> yet I do not bring this as a proof.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Indeed it was a long time for men to keep ſilence; <hi>ſeven dayes and ſeven nights, and not ſpeak a word!</hi> there was never ſuch a thing done in our days I muſt confeſs; but <hi>Job</hi> was a patient man.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>I would ask thy Friend one Queſtion, and if he be free to anſwer me, then the thing will appear more plain.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>I'le warrant hee'l anſwer you, for he is an able man; and though he and I do differ I muſt confeſs in judgement, yet I know he is able to anſwer you; for he is a <hi>baptized perſon,</hi> and ſtands for the vindication of Baptiſm and the Lord's Supper, which are the Ordinances of God.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>And I alſo ſtand in the defence of the holy Truth of God, which was once delivered to the Saints, <hi>Jude</hi> 3.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Well, Friend, what's your Queſtion?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Who is it that tempts men to ſin, and to diſobedience?</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>That is ſoon anſwered: for he that tempts men to ſin, is the Devil.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Thou haſt rightly anſwered; for God tempts no man to ſin, neither is he tempted of any: <hi>but every man when he is tempted is drawn away of his own lust, and enticed; and when luſt hath con<g ref="char:EOLhyphen"/>ceived, it brings forth ſin; and ſin when it is finiſhed, brings forth death.</hi> Jam. 1. 14, 15.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>All that is true; you have anſwered your ſelf.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Then this is the Queſtion: By what means? is it by a vocal voice, or outward ſound that he teaches men to ſin?</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Nay I do believe that the Devil is a ſpirit, and doth not teach men to ſin by perſonal appearance, or by a vocal voice that may be heard by the outward ear.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Then we muſt all conclude, that he teacheth inviſibly and
+<pb n="9" facs="tcp:204909:5"/> in ſilence, if not by voice nor perſonal appearance to the outward eye, nor outward ear; and by this methinks you ſeem to juſtifie the Quakers <hi>Silent-meetings.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>We ask no favour of him nor thee, nor any man living, to worſhip our God; neither any mans counſel or approbation whe<g ref="char:EOLhyphen"/>ther we are in the right Worſhip or no, but by way of Argument, becauſe the Worſhippers in <hi>England</hi> do wonder and gaze ſo much at us in our Silent-meetings. Now if the Devil do teach his to lye and ſwear by an evil ſpirit, who is the father of all lyars; how much more may the true God, who is bleſſed for evermore, teach his, and lead his into all Truth? as it is ſaid, <hi>and they ſhall all be taught of God, Iſa.</hi> 53. 13. and in ſilence, as to the outward ear, the enemy of mans Salvation, teacheth his all ungodlineſs; may not the Lord, that good Spirit, teach his in ſilence, to deny all ungodli<g ref="char:EOLhyphen"/>neſs and worldly luſts? And as thou haſt ſaid, and haſt ſaid true, That the Devil is a ſpirit, and comes not to man to ſpeak to him by perſonal appearance, or a vocal voice to mens outward ear, but yet he layes baits before the eyes of their minds, and ſnares, to murder and to commit Adultery, to ſteal and rob, over-reach, cheat and cozen: and may not the Lord teach his to do to all men as they would be done by? For, where I my ſelf had done wrong before Converſion came; the Spirit of Truth brought it to my remem<g ref="char:EOLhyphen"/>brance again, where I had over-reacht and cheated, and made me to make reſtitution again [this teaching I witneſs] and made me pay back again many a pound, and that with advantage alſo. Oh! I commend the teaching of the Spirit above all teachings. O glory be to his Name for ever, <hi>Exod. 22. 3. Numb.</hi> 6. 7.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Well, but my Friend I cannot paſs you by any longer; pray let me know why you forſook ſo good a Calling?</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>While I was taught of men, I could follow it: (<hi>viz.</hi>) When the Church of <hi>England</hi> was govern'd by Epiſcopal Order, I could follow it, and call'd it <hi>the gift of God;</hi> and when I became more ſtrict, a <hi>Presbyter,</hi> I made a trade of it, and never queſtion'd it at all: and after that I became an <hi>Independant,</hi> I could follow it<g ref="char:punc">▪</g> and when I came further, and was <hi>baptized with water,</hi> and eat <hi>Bread and Wine</hi> with them about the year 1642. they encouraged me in it, and ſome of them had their Children taught on the <hi>Vir<g ref="char:EOLhyphen"/>ginals:</hi> but I went further, and was an <hi>Antinomian</hi> (ſo called) and
+<pb n="10" facs="tcp:204909:6"/> then I could teach mens Sons and Daughters on the Virginals and on the Viol, and I got the two laſt years more than an hundred and thirty pounds a year with my own hands, and lived very high, and perceived that the longer I followed it, the greater in-come I had: but when Truth came, I was not able to ſtand before it, the Lord did thunder grievouſly againſt this practice; and I would fain have pleaded the harmleſneſs of it, but no pleading would ſerve, it was nothing but vanity, and vexed the good Spirit of God: O it was hard to fleſh and blood to give it up, for it was not only my live<g ref="char:EOLhyphen"/>lihood, but my life was in it: Now the Witneſs of God did often ſmite me for it, before I could yeeld to the Lord to give up, ſo that ſometimes it put me to a ſtand, and then reaſonings aroſe whether it was a lawful Calling; and while I with the wrong thing ſtrove to prove it lawful, that pure thing that was ſent of God, it took away my peace from me. O the goodneſs and forbearance of the Lord to me! for, what was I that the Lord ſhould ſtrive ſo with me leſt I ſhould have gone on to my everlaſting deſtruction? Then was I at a ſtand what I ſhould do for a livelihood; but the Holy-One caught hold on me, and ſaid, <hi>Am not I alſufficient? give up, for I have a great work for thee to do.</hi> But my life was ſo much in the thing, that he made me to feel his ſharp Sword, which divided between me and my lovers.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But Friend, you undervalue Muſick too much; 'tis true, that if in caſe you had been a Fidler, it had been no great matter if you had caſt it off: but to teach mens ſons and daughters on the Virginals and on the Viol, it is as harmleſs a Calling as any man can follow: How ſay you, Sir?</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Truly I do not ſee but he might have followed it ſtill as he uſ'd it; and as you ſay, me thinks it is a very harmleſs Calling; there is ſufficient proof of Scripture for the lawfulneſs thereof: on<g ref="char:EOLhyphen"/>ly in this one thing the <hi>Quakers</hi> muſt be ſingular.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>I have heard divers men, and ſome of all Religions, and almoſt all people, eſpecially thoſe of the Univerſities, do highly commend Muſick: but O the Truth, the Spirit of Truth, nor the Children of Truth can never bear it; but Truth and her Children do trample it under foot; 'tis <hi>Babylons</hi> Muſick, and down it muſt and ſhall for ever. And ſince I through the good hand of God had an eye open in me to ſee where I ſtood, I ſoon ſided with the
+<pb n="11" facs="tcp:204909:6"/> Truth, and ſtood off from the reaſoning part, and then the Zeal of God roſe up as hot as fire, and I greatly loathed my ſelf to ſee what curſed ground I ſtood in, and I reckon it a happy day that I was redeemed out of a vain practice; <hi>Acts</hi> 19. 19.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But prethee thou mad <hi>Quaker</hi> hold a little, for thou wreſts the Scriptures, as many of you do, to your own deſtructions: for, they were <hi>Magicians,</hi> not <hi>Muſicians,</hi> that burnt their Books of great price.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>That which taught them, taught me to deny ungodlineſs, and will teach all that will turn to it, <hi>to deny ungodlineſs and curious Arts,</hi> and is not Muſick a curious Art, wilt thou deny it?</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Tis true, Muſick is a curious Art, but will you ſay 'tis <hi>ungodli<g ref="char:EOLhyphen"/>neſs?</hi> take heed what you ſay, leſt you pull an old houſe upon your head: for we are no <hi>Fidlers,</hi> but are ſober men, and in a ſober Cal<g ref="char:EOLhyphen"/>ling, and that which delights the ears of Kings and wiſe men, and grave ſage men, and the honourableſt men and women in the Na<g ref="char:EOLhyphen"/>tion do highly eſteem of Muſick.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>That which is highly eſteemed amongſt men, is abomi<g ref="char:EOLhyphen"/>nation to the Lord, reade <hi>Luke</hi> 16. 15. And why doſt thou make ſuch a difference between thoſe called <hi>Fidlers,</hi> and you who call your ſelves <hi>Muſicians?</hi> for my own part, ſince I came to the Truth it ſelf, I do ſee indeed that I being a Teacher in Muſick, it might have this ſtile above the other; for I count it was a civil Devil, and the <hi>Fidler</hi> more prophane, but both are for the Lake that pra<g ref="char:EOLhyphen"/>ctiſe it, except they do repent, <hi>Mat. 9. 23. Rev.</hi> 18. 22.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Are they for the Lake! I think you are for the Lake more likely. But prethee Friend let me ask thee one Queſtion more.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Speak on.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Doth not the Scripture ſay, <hi>I will have mercy, and not ſa<g ref="char:EOLhyphen"/>crifice?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>Yea, and it is a precious ſaying: happy are they that can receive it and underſtand what it means.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Then truly if I had been your Counſellour, you ſhould never have burnt your Books, nor brake and burnt your Inſtru<g ref="char:EOLhyphen"/>ments: for, if you could not for conſcience ſake have followed this Calling, then I ſhould have adviſed you to ſell them, and to have given the money to the Poor: How ſay you, Sir, had not that been better?</p>
+            </sp>
+            <sp>
+               <pb n="12" facs="tcp:204909:7"/>
+               <speaker>Bap.</speaker>
+               <p>Yes truly in my judgement it had, for then ſome body would have been the better for it.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>
+                  <hi>To obey the Lord. is better than to give all my goods to the poor, and my body to be burned;</hi> yet to let thee know the Truth of this thing; when I came to be convinced of this everlaſting truth, I ſaw my Calling would not ſtand before it; I went, but not in the Counſel of the Lord, and ſold moſt of my Inſtruments; howbeit that would not cover me, for the Lord met with me; and as I was learning to ſew, for I had formerly ſome inſight of a Tailors Trade, but I was too high to bow to it, till the Truth came, and that is of power to make the ſtrong man bow, and I ſitting alone, with my mind turned in, the Voice of the Lord ſaid, <hi>Go thy way, and buy thoſe Inſtruments again thou lately ſoldeſt, and carry them and the reſt thou haſt in thy houſe to</hi> Tower Hill, <hi>and burn them there, as a Teſti<g ref="char:EOLhyphen"/>mony againſt that Calling.</hi> So I obeyed the Lord, and bought them again, and carried them, and all I had in my houſe, to <hi>Tower Hill,</hi> and burnt them there, according to the uprightneſs of my heart be<g ref="char:EOLhyphen"/>fore the Lord; which Books and Inſtruments did amount to more than four and twenty pound; and I had great peace. Glory be to God for ever. <hi>Amen.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But might it not be a deluſion, and falſe motion? were you never ſorry for what you have done in this thing?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Yes, I was very ſorry that when I had brought them to <hi>Tower Hill,</hi> and had begun to ſet them on fire, and when the fire flamed upon them, the rude multitude would not ſuffer me to burn them, but put the fire out; ſo I was forced to ſtamp upon them, and break them to pieces; for I did it with much indignation, though my Father, and Grandfather, and Great-grandfather were Mufitians, yet he that was before ſin was, taught me to do as I did; but I was ſorry that I could not be avenged on them as I would; but the Lord did accept of it, and I had great peace: And if at this time I had as many as would amount to a thouſand pound of In<g ref="char:EOLhyphen"/>ſtruments and Books for that purpoſe, to the fire they ſhould all go; for the ſame indignation is with me ſtill againſt that practice, as againſt lying, and ſtealing, and committing adultery: yet there is ſomething in Muſick, but there is a difference between the Harps of God, and the Harps of Men; as there is a difference between the Natural man, and the Spiritual, 1 <hi>Cor.</hi> 2. 14.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Well, but my Friend, I muſt tell you what the Judge<g ref="char:EOLhyphen"/>ment
+<pb n="13" facs="tcp:204909:7"/> of wiſe men hath been in this your perverſe proceedings, for you were then diſtracted ſure enough, and it was a very great deluſion of the enemy, to perſwade you from ſo good a Calling; and this they ſay further, That if the truth were known, you have been ſufficiently ſorry for it ſince; and ſome do verily believe, that you will be glad to follow it again, if you can but get an oppor<g ref="char:EOLhyphen"/>tunity; and truly as my old acquaintance, I could wiſh that you would follow it again with all my heart. What ſay you Sir?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>God forbid that ever ſuch a motion ſhould enter my heart, it never did nor never ſhall; What go back and build again the things I have deſtroyed? I have had opportunity ſufficient to go back again into <hi>Egypt:</hi> But to anſwer the thing thou ſpakeſt, that if the truth were known, ſome ſay, that I have been ſufficiently ſorry. Well, both thou and they ſhall know the truth in this thing; In<g ref="char:EOLhyphen"/>deed I was ſorry at my very heart, and to this hour it troubles me, That ever I ſhould ſpend ſo much of my pretious time ſo idely, in ſuch a curſed practice, <hi>Acts</hi> 11. 17.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But was not <hi>David</hi> a man after Gods own heart? and he played before the Lord, and danced before the Ark. And in <hi>Solo<g ref="char:EOLhyphen"/>mons</hi> day there was Muſick in the Temple.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>What haſt thou to do with <hi>David,</hi> or with <hi>Solomon</hi> or the <hi>Temple?</hi> Where are your Burnt-offerings and Sacrifices, you that plead for your Muſick &amp; Dancing, and inſtance <hi>David</hi> &amp; <hi>Solomon?</hi> Ye filthy hypocrites, would you have <hi>David,</hi> and <hi>Solomon,</hi> and the <hi>Temple</hi> to cover you! Behold <hi>Nebuchadnezzar,</hi> that old Idolater, who ordained, <hi>That at the ſound of the Cornet, Sackbut, Dulcimer,</hi> and all his gang of Fidlers, <hi>men muſt bow to his Idol.</hi> And for this thouſand years, his Brother the Pope hath ſet up Maſs-houſes, and Muſick, and Organs, and Bells, and Queriſters in Idol Temples. For <hi>Pauls</hi> Church was called, <hi>The Temple of Diana.</hi> And <hi>Peters</hi> Church at <hi>Weſtminſter, The Temple of Apollo.</hi> And in <hi>Rome</hi> they had the great God <hi>Jupiter,</hi> and in <hi>Florence, The Temple of Mars.</hi> And in other places to other Idols. Now <hi>Jupiter, Mars, Apollo,</hi> and <hi>Diana</hi> were unclean Spirits and filthy Devils. See Biſhop <hi>Jewel</hi> of <hi>Saliſ<g ref="char:EOLhyphen"/>bury,</hi> in his Treatiſe of the holy Scriptures, <hi>Pag.</hi> 30. And in <hi>Eng<g ref="char:EOLhyphen"/>lands</hi> Idol Temples, they ſing <hi>Davids</hi> Lamentations, but never fol<g ref="char:EOLhyphen"/>low his Practice, <hi>Pſal. 6. Prov. 14. 9. Dan.</hi> 3. 15.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly, me thinks when I go to Church, and hear the Or<g ref="char:EOLhyphen"/>gans,
+<pb n="14" facs="tcp:204909:8"/> and Voyces, and the Diſcords, and Concords, I am even ra<g ref="char:EOLhyphen"/>viſhed to hear, and I can praiſe the Lord with them, and tis to me as the joys of Heaven.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>That Heaven will be ſhaken, and thy Song will be turned into howling; for ſuch Muſick and Singing was never ſet up of God, but of men; and it takes with that part in man that ſerves not God aright, but is for wrath and judgement, <hi>Hoſ. 12. 26. 1 Cor.</hi> 2. 24.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Marry God forbid Friend, be adviſed what you ſay, and take heed; for our moſt learned Divines and reverend Fathers in God that we have in <hi>England,</hi> do highly approve of Muſick.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Tis never the better for that, nor they are never the better for being called of men <hi>Divines,</hi> and <hi>Reverend Fathers in God;</hi> when they Perſecute the Saints, God is highly diſpleaſed with them and will give them blood to drink. But what effects hath Muſick brought forth, that men ſo highly eſteem it? What fruit did <hi>Nebu<g ref="char:EOLhyphen"/>chadnezzars</hi> Muſick bring forth in his day, was it not to murder? But the three ſervants of the Lord would not bow to his Image at the ſound of his Pipes and his Fiddles, though others did. And how did Muſick and Dancing take the heart of the fooliſh King <hi>Herod,</hi> by means whereof he committed murder, and cauſed <hi>John Baptiſts</hi>'s Head to be cut off, who was a bleſſed man, appro<g ref="char:EOLhyphen"/>ved of God, and the Lord Jeſus Chriſt, and was greater than the Prophets; and becauſe he reproved him for having his Brothers Wife, rankor lay in the heart of the Damſels Mother, and when the Fidlers did ſtrike up, and the Wench began to dance, his af<g ref="char:EOLhyphen"/>fectionate love began to be enflamed to the Girle, that he killed the Lords ſervant in coole blood. O ye Fidlers and Dancing-Ma<g ref="char:EOLhyphen"/>ſters, let this Preſident break you off from your filthy practice; Why do you dance without the Ark? Where is your Ark? What Preſident have you in Scripture for your Danceing? You ſet up the Devils Kingdom by your proud Calling: You ſet their Bodies in poſtures to enflame and take with the luſtful Nature in men, and with proud Apparrel, and Spots on their Faces. <hi>Wo to the Crown of Pride.</hi> What account will ye give to the Lord, ye Dancing-ma<g ref="char:EOLhyphen"/>ſters, from whence came ye, where is your Ark? <hi>David</hi> danced before the Ark. O repent ye ſhamleſs men, will you not bluſh at your doings? If my Calling was unlawful, much more is yours; O
+<pb n="15" facs="tcp:204909:8"/> do not provoke the Lord any more; haſte, haſte, and leave off your practice before it leave you, for what thank will it be to you then, when you ſhall break off ſinning becauſe you can ſin no more?</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly Friend you make my heart ake, yet I have one que<g ref="char:EOLhyphen"/>ſtion to ask you more: If our Muſick and Singing in our Churches is not of the Lord, who brought in theſe things?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Pope <hi>Vitellian</hi> was the man, who being a luſty Singer, and freſh couragious Muſitian himſelf, brought into the Church Prick-Song, and Deſcant, and all kind of ſweet and pleaſant melody.</p>
+               <p>And becauſe nothing ſhould hinder the vain idle Ears of fond and fantaſtical men, he joyned the Organs with the curi<g ref="char:EOLhyphen"/>ous muſick, in the Year, 653. So 'tis more then a thouſand years ago ſince this Pope ſet up Piping and Fidling in Churches, (as they Call them) as you may read in a Book called, <hi>The Re<g ref="char:EOLhyphen"/>liques of Rome:</hi> and ſince by Queen <hi>Elizabeths</hi> Fidlers, <hi>Thomas Sternhold, John Hopkins</hi> and others, who ſtile themſelves Mu<g ref="char:EOLhyphen"/>ſitians, theſe turned the <hi>Pſalms</hi> into <hi>Meeter, Hymn</hi> and <hi>Verſe,</hi> and ſet men and women in the Idol Temples to ſing, and deride holy <hi>David.</hi> For one ſayes, <hi>I am weary of my groaning; all the night long make I my Bed to ſwim, I water my Couch with my teares.</hi> Are theſe any better than mock-verſes upon poor lamenting <hi>David?</hi> for they that do not witneſs what they ſay, and alſo witneſs ſuch a State, are mockers; ſuch as were ſaid ſhould <hi>come in the laſt dayes.</hi> For when did <hi>Tho. Sternhold,</hi> and <hi>John Hopkins,</hi> or any of them witneſs ſuch a State, <hi>to water their Couch with tears, and to faſt till men might tell their bones?</hi> This is no wayes conſiſtant with holy men, <hi>who wrote as they were moved by the holy Ghoſt.</hi> And another ſayes, <hi>O Lord I am not puft in mind, I have no ſcornful look:</hi> But were they not puft in mind to take upon them to turn the holy Scriptures into Poetry? and had they not a ſcornful look? if not, why did it not content them to read the Scriptures as they were? but they had ta<g ref="char:EOLhyphen"/>ken upon them things to wonderful for them, this did not <hi>David, Pſal.</hi> 131. 1. Wherefore, Wo to the Pope and his Cardinals, to the Monks, Friars and Jeſuites, Biſhops, Lord-Biſhops, and all falſe Prophets and Hirelings, with their Organiſts and Queriſters, Muſitians and Dancers on Ropes, with their Fidlers and Pipers; Juglers, Cheaters and Gamſters, Hunters and Haukers, Swearers and Lyars, Drunkards and Harlots, for all this is <hi>Babylon,</hi> her
+<pb n="16" facs="tcp:204909:9"/> Maskers and Mummers; and againſt all this is Gods wrath gone forth from the preſence of the Lamb: Their Plague is begun.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But yet I think our Brethren, <hi>Thomas Sternhold, John Hopkins</hi> and others, did think they did well; and how could the People imagine that it was the Muſitians ſtate? but their endea<g ref="char:EOLhyphen"/>vour was to ſhew how it was with <hi>David,</hi> and not themſelves.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>The People know that it was none of their condition, that's true; but what need had <hi>David</hi> of their rehearſal, and reading and ſinging his condition, and to ſound out their Pipes, with their Or<g ref="char:EOLhyphen"/>gans and Queriſters? all theſe Songſters deſpiſe <hi>Davids</hi> practice. Then is it not Mockery and Hypocriſie? <hi>Who hath required ſuch things at their hands?</hi> Iſa. 1. 12.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But Friend, I have not forgot that you ſpake of a won<g ref="char:EOLhyphen"/>derful<g ref="char:punc">▪</g> Teachet, that doth far excell all that ever had a Name.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>He whom I told thee of doth teach ſuch Muſick that God himſelf will liſten to: that's more than men; <hi>Pſal.</hi> 69. 33. and 72. 12, 14.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly Friend, I could be glad if I could learn that Leſſon that might pleaſe the Lord; pray what part is that which the Lord is pleaſed with?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>The inward part alone; <hi>Iſa. 31. 33. Pſal.</hi> 51. 6.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>How contrary is this to our Muſick? for if we ſhould play the inward part alone, there is none would delight in our Muſick.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>That which men deſpiſe, and Nations abhor, the Lord doth highly eſteem: and that which men do highly eſteem, the Lord ab<g ref="char:EOLhyphen"/>hors; <hi>Luke</hi> 16. 15.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly Friend, I would fain learn that Leſſon that might pleaſe the Lord; for I with others have pleaſed men, and they have highly rewarded us; but truly ſince I came to ſpeak with you, I do queſtion whether I have bleaſed the Lord in ſo doing.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>I was once playing a part with four more, more than 30 years ago; and the parts hit with the Fuige, and came in with the Diſcords and Concords ſo very lovely, that it took very much with that part which ſtands not in unity with the Lord: So that a Maſter of Muſick being in the Room the ſame time, heard the parts, and took his Hat off his head, and flang it on the ground, and cryed aloud, ſaying, <hi>Now take Body and Soul and all!</hi> This he ſaid who
+<pb n="17" facs="tcp:204909:9"/> never knew what his Soul was, nor what it would coſt to redeem it from deſtruction. So I ſee, that Muſick pleaſes well that which is for deſtruction, and grieves that which God doth highly eſteem and honour; <hi>Iſa.</hi> 42. 21.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly Sir, I am ſomething deſirous to know further; Pray where dwels this Muſick-Teacher?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Come and ſee.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>I would gladly ſee him and hear him, and would go far to learn of him; pray tell me where he dwells?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>He dwells Inviſible.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>How can a man learn of him that dwells inviſible? you ſpeak as if you did not intend that I ſhould know.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Yes verily, I would have thee know, and do not think it ſtrange becauſe I thus ſpeak, for <hi>he that ſearcheth the heart, and try<g ref="char:EOLhyphen"/>eth the reins,</hi> is Inviſible; and ſome there be that learn of him, <hi>Jer.</hi> 17. 7.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Tis true, I know that we muſt all be taught of God, but that is not the queſtion now; but if you will not tell me where he dwells, then tell me his name, that I may find him out. What call you his Name?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>His Name is called, <hi>The Word of God,</hi> Rev. 19. 13.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>What a ſtrange man are you, what an Anſwer is this, why do you anſwer ſo croſly? I took you for a wiſe man once, but are you not now turned fool? But I have heard of ſuch a Name; well if his Name be called, <hi>The Word of God,</hi> it is a far better Name in my opinion, than <hi>Solomon the King:</hi> but I hope you will not be an<g ref="char:EOLhyphen"/>gry, for <hi>Quakers</hi> do not uſe to be angry.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Nay I am not angry with thee one whit, for thou haſt ſpoke the Truth; and there is witneſs born both in Heaven and in Earth to this Name: for he whoſe Name is called, <hi>The Word of God,</hi> is a far more excellent Name then <hi>Solomon the King; for every Name and power in heaven and earth, ſhall bow,</hi> and muſt bow to this <hi>Name.</hi> Read <hi>Acts 4. 12. Phil.</hi> 2. 4, 10.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But pray Friend, doth he prick Plain-Song or Intableture? for if he prick Plain-Song, I do not fear but I ſhall learn it.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>He pricks very plain; for every Note is as eaſily ſeen as a white Sembrif or Minnom, <hi>John</hi> 16. 15.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly I am glad to hear that you <hi>Quakers</hi> ſpeak comforta<g ref="char:EOLhyphen"/>bly
+<pb n="18" facs="tcp:204909:10"/> ſometimes, though it is but ſeldom; it joys me much, for now I hope I ſhall learn that Leſſon that God is well pleaſed with. But where doth he prick his Notes?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>He pricks at the Heart, and brings his pure Light into the Conſcience, that thou and all the men and women in the world may read; yea, that they that run on in their wickedneſs may read; becauſe the Book of Conſcience is open that all men may ſee how 'tis with them, and may come to ſee who they have pierced. And thus men begin to mourn their parts, and their wives apart; and this takes more in the ears of the Lord, than all the <hi>Babyloniſh</hi> Worſhip and Muſick in the world, <hi>Acts 2. 37. Zech. 12. 12. Mat.</hi> 5. 4</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Now wo is me, is it come to this; my hopes are fruſtra<g ref="char:EOLhyphen"/>ted; Is there no way but I muſt come in at this door? Well, I do perceive that the <hi>Quakers</hi> preach not for gold nor ſilver, for if you did you would never preach after this manner; for who can take any pleaſure in this Doctrine? I ſee now what you drive at; for when <hi>Peter</hi> preacht to the <hi>Jewes,</hi> he told them, that they <hi>had mur<g ref="char:EOLhyphen"/>dered and betrayed him whom God had made both Lord and King: And when they heard this, they were pricked at their hearts: crying out; Men and Brethren, what ſhall we do?</hi> Truly I do believe there be but few Muſitians that ever learnt this Leſſon.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Mind the gift of God in thy heart; Chriſt Jeſus the true Teacher; and prize thy pretious time, that it may be bleſſed to thee; remember how that he hath waited on thee long. O prize the long-ſuffering of the Lord, for it is high time for thee now to return, <hi>Rom.</hi> 2. 4.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Would to God I were of any other Calling; for I verily be<g ref="char:EOLhyphen"/>lieve that God will overthrow all pleaſant things, and all falſe Worſhip: I am ſorry I have lived ſo vainly.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>I could like the <hi>Quakers</hi> well, if they did not deſpiſe the Ordinances; as Water-Baptiſme, and Bread and Wine which are the two Sacraments.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Who gave you <hi>Baptiſts</hi> Commiſſion to Baptize men and wo<g ref="char:EOLhyphen"/>men with Water? God never ſent you, yet you run; but God ſent <hi>John</hi> to Baptize with Water, and ſome of his Apoſtles did it in their freedom; and who gave you Commiſſion to eat Bread and to drink Wine? The Lord Jeſus gave it to his Diſciples; but whoſe Diſciples are you? Ye pleaſe your belly, and your Faith is of
+<pb n="19" facs="tcp:204909:10"/> things that are ſeen; <hi>but we look not at the things that are ſeen, for they are Carnal; but the things that are not ſeen are Eternal:</hi> But Bread, Wine and Water are ſeen. No marvel that you love good Bread and good Wine, and cry them up for Ordinances; but if in its place you would put bread of Affliction, and water of Affliction till he came, and come every Firſt Day to eat this bread of afflicti<g ref="char:EOLhyphen"/>on, and water of affliction; you would not cry up your Ordinan<g ref="char:EOLhyphen"/>ces ſo much as you do, neither would you have the tenth part of Communicants as you have. Are you not aſhamed to intrude into thoſe things you have no Commiſſion for? Poor <hi>David</hi> would not meddle with things that were <hi>too high for him,</hi> Pſal. 131. 1. But when did you <hi>Baptiſts</hi> witneſs <hi>Davids</hi> ſtate? <hi>My tears have been my meat day and night,</hi> Pſal. 42. 3. And again, <hi>I have eaten aſhes like bread, and mingled my drink with weeping,</hi> Pſal. 102. 9. And when did you <hi>Baptiſts</hi> faſt till men might tell your bones? (as ſome of the <hi>Quakers</hi> have done) Are you any better than Queen <hi>Eliza<g ref="char:EOLhyphen"/>beths</hi> Fidlers, that turned the holy ſayings of <hi>David</hi> into Meeter, Hymn and Verſe? O be aſhamed and come to the Light, and that will let you ſee, how you have lept above the Life of Chriſt and his Diſciples. Come down ye exalted Spirits, to the lowly Seed; and <hi>Learn of him that is meek and low in heart.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Did not the Lord command his Apoſtles to <hi>Baptize all Nations, in the Name of the Father, and of the Son, and of the holy Ghoſt?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Yea, that he did. But who gave you Commiſſion to Bap<g ref="char:EOLhyphen"/>tize any? Beſides, you are blind Guides indeed, to go and Bap<g ref="char:EOLhyphen"/>tize with Water, and bring the Apoſtles Commiſſion for it; and there was no Water at all in it. And Chriſt himſelf Baptized none with Water; for he was not ſent to Baptize with <hi>Water, but with the Holy Ghoſt.</hi> And <hi>Paul</hi> was not <hi>ſent to Baptize with Water, but to Preach the Goſpel.</hi> But you <hi>Baptiſts</hi> were never yet <hi>ſlain;</hi> you ne<g ref="char:EOLhyphen"/>ver yet <hi>put on the Lord Jeſus Chriſt.</hi> When did you put on his Suffer<g ref="char:EOLhyphen"/>ings and Sorrows? and how are you <hi>killed all the day? For, if you were ſlain with Chriſt from the Rudiments of the World; why, as living in the World, are ye ſubject to Ordinances?</hi> Surely you do not believe that Chriſt is come, <hi>Gal.</hi> 3. 27.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Nay; We do not believe that Chriſt is come, though we do believe he did once come; but we look for him to come the ſe<g ref="char:EOLhyphen"/>cond time.</p>
+            </sp>
+            <sp>
+               <pb n="20" facs="tcp:204909:11"/>
+               <speaker>Qu.</speaker>
+               <p>
+                  <hi>He that believeth not that Jeſus Chriſt is come in the fleſh, is Antichriſt:</hi> and thou ſayeſt, thou doſt not believe that Chriſt is come, becauſe thou lookeſt not where he is manifeſt in the fleſh, but thou lookeſt for him without. And, <hi>Is not Chriſt in thee, except thou be a Reprobate?</hi> 1 John 4. 3. Col. 1. 27.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Doth not the Text ſay, <hi>Ye men of Galilee, why ſtand ye gaz<g ref="char:EOLhyphen"/>ing up to Heaven? this ſame Jeſus which you now ſee go into Heaven, ſhall ſo come in like manner as ye ſee him.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Friend, Leave off thy gazing; for they were reproved that gazed: But come thou and learn of that Woman, and <hi>go ſweep the houſe, and light the Candle, that thou mayeſt find the loſt Groat, or Pearl, Chriſt Jeſus,</hi> in thy heart; <hi>and be not faithleſs, but believe.</hi> This is in love to you <hi>Baptiſts,</hi> who are loytering away your precious time, for that which never did, nor can make perfect, <hi>Acts 1. 11. Luke</hi> 15. 9.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Perfect; Why it is a very great queſtion to me, whether ever any man was perfect in this Life, ſaving Chriſt himſelf; nay, or ever can be. 'Tis true indeed, you <hi>Quakers</hi> do hold ſuch Te<g ref="char:EOLhyphen"/>nets, but I do not believe it; therefore prove it me by Scripture if you can, from <hi>Geneſis</hi> to the end of the <hi>Revelations.</hi> See, I have given thee the whole Bible to prove it; but you <hi>Quakers</hi> deny the Scripture.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Thou haſt given me Scripture room ſufficient, that's true; but to ſay the <hi>Quakers</hi> deny the Scripture, in that thou belieſt the Innocent, <hi>Job</hi> 4. 7.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Well, I have given you Scripture-room enough, but I be<g ref="char:EOLhyphen"/>lieve you cannot do it; for I have ſearched the Scriptures as well as any of you.</p>
+            </sp>
+            <sp>
+               <speaker>Qua.</speaker>
+               <p>But <hi>thou mayeſt erre, not knowing the Scriptures; nor yet the Power of God. Noah was a Juſt man, and Perfect in his Generation,</hi> Gen. 6. 9. Here was a <hi>Juſt</hi> and <hi>Perfect man, approved of God him<g ref="char:EOLhyphen"/>ſelf.</hi> And again, God gave teſtimony of <hi>Enoch, That he pleaſed God, for he walked with God, and was not, for God took him:</hi> and be<g ref="char:EOLhyphen"/>fore his tranſlation he had this teſtimony, <hi>That he pleaſed God,</hi> Gen. 5. 24. Heb. 11. 5. And again, the Lord juſtified <hi>Abraham,</hi> after he had ſaid unto him, <hi>Walk before me, and be thou perfect;</hi> and <hi>Ab<g ref="char:EOLhyphen"/>raham did ſo;</hi> for God bore teſtimony of him, and ſaid, <hi>Abraham obeyed my Voice, and kept my Charge, my Commandments, my Statutes,
+<pb n="21" facs="tcp:204909:11"/> and my Laws,</hi> Gen. 26. 5. Yea verily, and <hi>Abraham</hi> was called <hi>The Friend of God.</hi> And again, God bore teſtimony of <hi>Job, That he was a perfect man, that did fear God, and eſchewed evil,</hi> Job 1. Now Friend, Here are four men whom God bore witneſs off; What haſt thou againſt them? And <hi>David</hi> was a man <hi>after Gods own heart,</hi> and God bore witneſs of him that he failed in nothing ſaving in the matter of <hi>Uriah</hi> the <hi>Hittite, 1 Kings</hi> 15. 5. And who did ever go beyond him in his repentance? Yet after this he did witneſs a per<g ref="char:EOLhyphen"/>fect ſtate; For, ſaid he, <hi>God is my ſtrength, he maketh my way per<g ref="char:EOLhyphen"/>fect;</hi> 2 Sam. 22. 33. And again, <hi>I will walk within my houſe with a perfect heart,</hi> Pſal. 101. 2. And King <hi>Hezekiah</hi> ſaid, <hi>Lord remem<g ref="char:EOLhyphen"/>ber now, I beſeech thee, how I have walked before thee in Truth, and with a perfect heart,</hi> Iſa. 38. 3. And ſaith <hi>David, Mark the Per<g ref="char:EOLhyphen"/>fect man, behold the <g ref="char:V">Ʋ</g>pright; the End of that man is Peace;</hi> Pſal. 37. 37. And again, <hi>The Lord hath not ſeen Iniquity in Jacob, nor Perverſneſs in Iſrael;</hi> as thou mayeſt read, <hi>Numb.</hi> 23. 21. And again, <hi>They that are in Chriſt Jeſus, are New Creatures. I in them, and they in me, perfect in one;</hi> John 17. And, <hi>Be you Perfect as your Father which is in Heaven is perfect;</hi> Mat. 5. And ſaith the Apoſtle, <hi>We ſpeak wiſdom to them that are Perfect;</hi> 1 Cor. 2. 6. 2 Cor. 2. 11. <hi>Who ſhall lay any thing to the charge of Gods Elect?</hi> Rom. 8. And ſaith <hi>Paul, That we may preſent every man perfect in Chriſt Jeſus,</hi> Col. 1. 28. Epheſ. 4. 12. Col. 4. 12. 1 Theſ. 3. 10. 2 Theſ. 3. 17. Heb. 7. 19. Heb. 10. 14. Heb. 12. 23. Heb. 13. 21. <hi>Jam. 2. 22. Jam. 3. 2. 1 Pet. 5. 10. 1 John 4. 18. Rev.</hi> 14. 5.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly Friend <hi>Baptiſt,</hi> we are all out of the way, we have ſpoke too much by hearſay of them, that they do deny the Scrip<g ref="char:EOLhyphen"/>tures; I would you had not ſaid ſo: But I ſee the poor <hi>Quakers</hi> put up much wrong, for we have had very hard thoughts of them, and they have been derided, and mocked, and hated of many; in<g ref="char:EOLhyphen"/>ſomuch that they have been puniſhed to death, many of them; but for my part I ſhall be ſilent hereafter, for I ſee they have been miſ<g ref="char:EOLhyphen"/>repreſented: And although we have ſaid, No man can be Perfect in this Life; yet who is able to withſtand theſe ſound Scriptures? and I have heard many ſay, That a man may come to be as wicked as the Devil himſelf: but t<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uly I do believe that God is above the Devil; yet I do not excuſe my ſelf, for I am a grievous ſinner, and
+<pb n="22" facs="tcp:204909:12"/> never look to come to ſuch a ſtate, as to be Perfect in this Life.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Why no. For the righteouſeſt man that is ſins ſeven times a day: Yea, <hi>John</hi> himſelf ſaid, he was <hi>a ſinner;</hi> or elſe he would not have ſaid, <hi>We;</hi> for the word <hi>we,</hi> implies himſelf as well as they. <hi>But if we ſay we have no ſin, we deceive our ſelves, and the truth is not in us.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Do not bely the Scripture, nor the Spirit that gave it forth, <hi>for holy men wrote as they were moved by the Holy Ghost:</hi> and it no where ſaith, <hi>That the righteouſeſt man that is ſins ſeven times a day.</hi> But, <hi>Stand in awe, and ſin not.</hi> And as for <hi>John,</hi> he was a holy man, a Divine, and could not ſin: but he wrote to Children; firſt, that they might have fellowſhip with them who were Apoſtles. But they being Children, had not fellowſhip with them, <hi>who had fellowſhip with the Father, and with the Son Jeſus Chriſt;</hi> becauſe they were ſubject to ſin. And beſides, Children are apt to ſin, and to think themſelves better than they are; which made the Apoſtle ſay this: <hi>If we ſay, we have fellowſhip with him, and walk in darkneſs; we lye, and do not the truth.</hi> (Mark) For this I do affirm, That if <hi>John</hi> had ſaid he had been a ſinner, he had lyed; for, no ſinner hath fellow<g ref="char:EOLhyphen"/>ſhip with God. For, <hi>He that commits ſin, is of the Devil;</hi> and God hath no fellowſhip with Devils: <hi>But he that is born of God doth not commit ſin:</hi> And <hi>John</hi> was born of God, as he ſaid: though he came to his own, yet his own received him not; <hi>but to as many as received him, to them gave he power to become the Sons of God:</hi> (and <hi>John</hi> did receive him:) <hi>who were born</hi> (mark) <hi>not of blood, nor of the will of the fleſh, nor of the will of man, but of God.</hi> Yet the Apoſtle did uſe a condeſcending word to the Children, in ſaying <hi>We.</hi> But let all men take heed, <hi>how they call that common, which God hath clean<g ref="char:EOLhyphen"/>ſed.</hi> Yet this I ſay, in the truth of God, That if any ſhall ſay, <hi>they have no ſin,</hi> when Gods Witneſs in them doth condemn them for ſin; they then make <hi>God a lyar,</hi> and we are all ſenſible, that God will not clear the guilty. <hi>But if we confeſs our ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ns, he is juſt, to forgive us our ſins, and to cleanſe us from all unrighteouſneſs.</hi> And again, <hi>If we ſhall ſay that we have not ſinned, we lye, and do not the truth. But he that is born of God ſinneth not; for his ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ed remaineth in him, and he cannot ſin, becauſe he is born of God.</hi> And <hi>John</hi> ſaid, he ſhould have <hi>boldneſs in the Day of Judgement; becauſe, as he is, ſo are we,</hi> ſaith he, <hi>in this Life.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="23" facs="tcp:204909:12"/>
+               <speaker>Bap.</speaker>
+               <p>But doth not the Apoſtle ſay, <hi>We and others ſpeak after the ſame manner?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Yea; for inſtance, <hi>James</hi> ſaid <hi>We,</hi> as well as <hi>John; In ma<g ref="char:EOLhyphen"/>ny things WE ſin all.</hi> But <hi>James</hi> was not in the many things, but in the one Seed, the Anointing, and could ſin no more than <hi>John.</hi> And again he ſaid <hi>We; For,</hi> ſaith he, <hi>with the tongue we bleſs God, and with the tongue we curſe men, made after the Image of God.</hi> But did <hi>James</hi> Curſe men?</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>God forbid. For I believe that <hi>James</hi> was a very honeſt man, and would not Curſe men, <hi>Jam.</hi> 3. 9. But pray Friend, why did <hi>Paul</hi> ſay, <hi>The good that I would do, I do not; and the evil that I would not do, that do I?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Truly Friend, that was a good ſtate, to cry out, being un<g ref="char:EOLhyphen"/>der the ſenſe of a body of ſin; and to feel ſin exceeding ſinful. I verily believe there was ſuch a day with <hi>Paul,</hi> but the Lord brought him out of that ſtate, as he ſaid; <hi>For the Law of the Spirit of Life, in Chriſt Jeſus, hath ſet me free from the Law of ſin and death.</hi> 'Tis ſo, <hi>Rom.</hi> 7. 24. &amp; 8. 2.</p>
+            </sp>
+            <sp>
+               <speaker>Bap.</speaker>
+               <p>Why do you <hi>Quakers</hi> hold falling away? For once in Chriſt and ever in Chriſt; and ſo ſin paſt, and preſent, and to come is done away.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>How can <hi>Baptiſts</hi> fall away from the Truth, that are not come to it; or fall from Chriſt, who are not in Chriſt? For I te<g ref="char:EOLhyphen"/>ſtifie in the Spirit of Truth, that there is as great a gulfe between you <hi>Baptiſts</hi> that are not in Chriſt, and thoſe that are in the Truth, as there was between <hi>Abraham</hi> and <hi>Dives.</hi> But they that are in Chriſt, and do abide in Chriſt, are his Diſciples: But they that are in him, and do not abide in him, they will be caſt forth as a branch, and ſo it withereth, and men caſt it into the fire, ſaith Chriſt Jeſus, <hi>John</hi> 15. But if thou couldeſt make that good, That ſin paſt, preſent, and to come, is put away; thou wouldeſt be a friend to the <hi>Ranters,</hi> and to the old Apoſtates; and ſo make the ſayings of Chriſt and the Prophets of none effect: But thou and they will find it otherwiſe, except ye repent. And I know alſo, (though I bear you no malice, but wiſh that you may be delivered from wrath to come; and that you may come to the Righteouſneſs of Chriſt, by <hi>true repentance towards God, and faith through our Lord Jeſus Christ</hi>) there is an antipathy in you againſt the truth of God,
+<pb n="24" facs="tcp:204909:13"/> and Gods friends, called <hi>Quakers.</hi> For in times paſt I had been delivered out of Priſon, had it not been for a <hi>Baptiſt-Chair-Man.</hi> But <hi>Paul</hi> was in the ſame condition, when he was <hi>Saul;</hi> for he thought verily that he muſt do many things againſt Jeſus of <hi>Naza<g ref="char:EOLhyphen"/>reth; which thing I did in Jeruſalem, and many of the Saints did I ſhut up in Priſon; and when they were to be put to death, I gave my voice againſt them,</hi> Acts 16. 6, 10. And this I ſay in the fear of the Lord, not ſparing any, whoever they are, that are and ſhall be found workers of Iniquity; they muſt depart from him, although they may be called <hi>Quakers:</hi> yet if they go from their ſtedfaſtneſs, and from the Truth, and become ſuch as forſake the aſſemblings of themſelves together, as ſome do and have done; ſuch are gone from their firſt Love, and have damnation: Yea, and if ſuch do not ſpeedily return, and witneſs repentance, they are in danger to ſin againſt the holy Ghoſt: for ſuch <hi>Crucify unto themſelves the Son of God, and put him to open ſhame:</hi> yea, ſuch <hi>trample under foot the Son of God, and count the blood of the New Covenant an unholy thing, by which they were ſanctified:</hi> Notwithſtanding ſuch did taſte of the heavenly gift, and of the power of the world to come. Such were in the dayes of Old, who were called, <hi>The Sons of God. And the Sons of God went in to the Daughters of men, and were drowned with the wicked,</hi> Gen. 8. 2. Ezek. 16. 22. and 34. 7. Heb. 6. 6. and 10. 25, 26.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But truly Friend, 'tis pitty that ſo many good men that are in <hi>England,</hi> and other parts, who fear God; for I am perſwaded that there are ſome good men among the <hi>Baptiſts,</hi> and <hi>Independants,</hi> the <hi>Presbyters</hi> and <hi>Epiſcopal,</hi> yea and <hi>Papiſts</hi> too, that are very ſtrict men, and ſerve God inſtantly; and what, are they all caſt away becauſe they are not <hi>Quakers?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Why call'ſt<g ref="char:punc">▪</g> thou them <hi>good? there is none good but God,</hi> and they that are taught of God, and do hear what the Spirit of Truth doth ſay to them, and obey it; and ſuch, <hi>their praiſe is not of men but of God.</hi> But as to the fear of the Lord, that is very precious, God will bring ſuch to the Truth, from out of all the barren pla<g ref="char:EOLhyphen"/>ces: For, <hi>God is no reſpecter of perſons; but in every Nation, he that feares God, and works Righteouſneſs, is accepted of him.</hi> I ſay, ſuch will God bring to his Everlaſting Truth, as he did <hi>Cornelius.</hi> But as for the generality of thoſe men thou ſpakeſt of, <hi>They have a zeal
+<pb n="25" facs="tcp:204909:13"/> of God, but not according to knowledge;</hi> For there is one thing that God doth require, and they deſpite that one thing; ſo their Pray<g ref="char:EOLhyphen"/>ers cannot be heard, <hi>Rom.</hi> 10. 2, 3.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Pray what is that One thing which makes them uncapable of acceptation? for methinks, 'tis great pitty that ſo many good men, as I call them, ſhould not be accepted. Surely you judge too hardly.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>I dare not daube with untempred morter; for where they are, I was; <hi>viz.</hi> in Performances, in Ordinances, in Family Du<g ref="char:EOLhyphen"/>ties, in Hearing, in Reading, in Prayers, in Faſtings in my own Will, and all this was Will-Worſhip: but when that One thing came which is needful, I became very poor and needy; and I do find, and therefore do teſtifie for God, that while men are in their natural ſtate, they cannot pleaſe God; nay, all men rather are diſ<g ref="char:EOLhyphen"/>pleaſed at that of God in their own hearts, though they may think themſelves never ſo Religious. For <hi>Paul</hi> ſaid, <hi>That he thought ve<g ref="char:EOLhyphen"/>rily, that he was to do many things contrary to Jeſus of Nazareth.</hi> Well, but when I came to bend my mind to that of God in me, which is Chriſt; his pure Law in my heart, ſhewed ſin to be exceeding ſin<g ref="char:EOLhyphen"/>ful, and then I began to learn to be a fool; inſomuch, that I durſt not give thanks for the Victuals that were ſet before me, <hi>Pſal. 39. 2. Rom.</hi> 7. 13.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly then you were unworthy of it in my judgement; for we muſt give thanks and praiſe God for all his Benefits: Lord, what ſad People are you <hi>Quakers!</hi> I did never hear ſuch a word before.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Ah Friend, Gods wayes are not like mans wayes; neither are mans teachings like unto God's teachings: for when the Lord comes, his Commandment is, <hi>Silence all fleſh;</hi> and that Tongue which could Preach, and Pray, and give Thanks, muſt come to know a Bridle from good words, and bad words: Even as <hi>David</hi> ſaid, <hi>I kept ſilence even from good words, though ſore againſt my will.</hi> For I had often praiſed God with that tongue that had told Lies before Truth came; and Truth brought its Bridle and tied me up, ſo I gave up that to the Famine, which was for the Fa<g ref="char:EOLhyphen"/>mine: and with my tongue I had often called God, Father, be<g ref="char:EOLhyphen"/>fore that was born that ſhould call him Father; as many Pro<g ref="char:EOLhyphen"/>feſſors do this day; but when they ſhall turn to the One thing that is needful, and part with all for that One things ſake; then the bro<g ref="char:EOLhyphen"/>ken heart will riſe, then no ſleep to the eyes, nor ſlumber to the eye<g ref="char:EOLhyphen"/>lids,
+<pb n="26" facs="tcp:204909:14"/> till that be felt born that comes to do the will of God: and be<g ref="char:EOLhyphen"/>fore this time, or about this time, men come to ſit down and reckon what it will coſt them, for all is to be given up within and without; and ſuch come in at the right door: yet were it not for the mercy of the Lord, we could never hold out, <hi>Luke</hi> 14. 28. Now we come to witneſs the ſaying of the Lord Jeſus, <hi>Without me ye can do no<g ref="char:EOLhyphen"/>thing:</hi> For indeed the way is very ſtrait, and the gate narrow, but God hath laid help upon one that is mighty, and he hath met us, to go before us: O bleſſed be the Lord!</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But doth not the Lord ſay, <hi>Buy wine and milk without mo<g ref="char:EOLhyphen"/>ney and without price?</hi> Then why doſt thou tell us of coſt and char<g ref="char:EOLhyphen"/>ges? Is not the grace of God free?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Yes verily; yea, and the Teſtimony of the Lord is true, for no gold or ſilver can buy the Truth; yet it is to be bought; for ſaith Chriſt, who is the Wiſdom, <hi>Buy the Truth, and ſell it not,</hi> Prov. 23. 23.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>This is ſtrange Doct<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ine, and methinks you are a ſtrange People, and your Language is ſtrange, and your Carriage ſtrange; You ſtand much upon <hi>Thee</hi> and <hi>Thou,</hi> and <hi>Yea,</hi> and <hi>Nay.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Come to the Witneſs of God in thy own particular, and thou ſhalt know the reaſon, why we are ſo fearful to diſpleaſe the Lord: Oh when the fear is over the heart, leſt we ſhould offend with our tongue, we are ſafe: And as for <hi>thee</hi> and <hi>thou,</hi> we had ne<g ref="char:EOLhyphen"/>ver learnt it except the Lord had taught it us, for I could willingly have ſpoken the old Language which was from the <hi>Pope, You,</hi> to a particular; but the Language of the Spirit is <hi>thou</hi> to one, and <hi>you</hi> to many, as thou mayeſt read from the beginning of <hi>Geneſis,</hi> to the end of the <hi>Revelations;</hi> though I could willingly have gone miles about, than meet my old Companions to ſpeak the plain language to them. And as I was faithful in a little, the Lord made me ſtron<g ref="char:EOLhyphen"/>ger and ſtronger. But when I ſaid to one, <hi>you,</hi> the Lord would ſmite and judge me for it. And as <hi>yea,</hi> and <hi>nay,</hi> are faithfully performed in the power of the Lord, and to ſtand faithful to it: Men will as ſoon take our <hi>yea,</hi> or <hi>nay,</hi> as others <hi>Bonds.</hi> But theſe little things coſt me and others very dear; and whoever will be his diſciple, he muſt not deſpiſe the day of ſmall things; but muſt take up the dai<g ref="char:EOLhyphen"/>ly Croſs and follow him. This is true, <hi>Mat.</hi> 10. 38.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Indeed I have heard in the Goſpel, that we muſt <hi>ſeek the
+<pb n="27" facs="tcp:204909:14"/> Kingdom of Heaven firſt, and the Righteouſneſs thereof, and all other things ſhall be added.</hi> That is a very plain Scripture; but who is able to do ſo? Surely but very few.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Many in this day of the Lord have denyed all, and have taken up the daily Croſs, and have followed him, and are well ſa<g ref="char:EOLhyphen"/>tisfied in what they have done: Glory for ever be to the Lord, <hi>Mat.</hi> 5. 20.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>O the way to heaven is a very hard, ſtrait, and narrow way, and few there be that find it: What will become of me vile wretch?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>That which preſents thee vile in thine own eye, and in ſe<g ref="char:EOLhyphen"/>cret reproves thee for ſin; O love that, <hi>Rev.</hi> 3. 9.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Friend, Pray for me, for now I begin to hate my ſelf and my Calling<g ref="char:punc">▪</g> but how ſhall I love that which reproves me? would you indeed have me do ſo? how contrary is this to our Religion?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Take heed to Gods Witneſs, and give up to obey it, and own the indignation of the Lord, as <hi>David</hi> did, becauſe he had ſin<g ref="char:EOLhyphen"/>ned againſt him; So the Light of Chriſt will let thee ſee thy ſin. But believe the Light and follow the Light, and look not ſo much at the ſin, as at him who will ſave thee out of the hands of all thine Enemies: For a mans enemies are they of his own houſe. But as thou mindeſt the Light, it will judge and condemn ſin, and raiſe a deſire in thee to do the will of God, and thou muſt have a care not quench that deſire.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Truly, I think there is ſomething in me, I cannot be at peace nor at quiet for it; and ſometimes I am grievouſly affright<g ref="char:EOLhyphen"/>ed.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>'Tis the Witneſs of God; this was my caſe once: Give up in obedience to him, and love his Reproofs, for the reproofs of Inſtruction is the way of Life: 'Tis ſo, <hi>Prov.</hi> 3. 11, 12.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>Well Friend, I have ſtrove much to oppoſe you, though in my ſelf I have been reproved for it: for I do believe that both God and good men love the honeſt <hi>Quakers.</hi> But if I and all men do oppoſe you, yet you go on; ſurely there is a miraculous hand upholds you, that you ſo hold your integrity; truly Friend, I have a good mind to hear you, but I would not be ſeen.</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>'Tis meet for thee to try all things, and hold faſt that which is good; but thou muſt not be afraid of men if thou wilt be a fol<g ref="char:EOLhyphen"/>lower
+<pb n="28" facs="tcp:204909:15"/> of Chriſt. Take heed, <hi>and agree with thy Adverſary quickly, while thou art in the way with him,</hi> and he with thee, <hi>Mat.</hi> 5. 25.</p>
+            </sp>
+            <sp>
+               <speaker>Mu.</speaker>
+               <p>But I have read that the Devil is my Adverſary, muſt I agree with him?</p>
+            </sp>
+            <sp>
+               <speaker>Qu.</speaker>
+               <p>Nay: Thou haſt been at agreement with him too long al<g ref="char:EOLhyphen"/>ready; but thou muſt agree with him that reproves thee for thy ſin, and look well to thy precious time, while the Spirit yet ſtrives with thee, and let all people take heed of deferring their time. But hearken to his voice, <hi>while it is called to day: For now is the acceptable time, now is the day of Salvation: for Gods long-ſuffering waits to be gracious as it did in the days of Noah.</hi> Therefore haſte, haſte, come out of all uncleanneſs, and of all falſe Worſhips: let all men take heed how they withſtand their day; for Gods Spirit will not al<g ref="char:EOLhyphen"/>ways ſtrive with men, leſt it ſhould fail before him, and the ſouls that he hath made.</p>
+            </sp>
+            <closer>
+               <signed>S. E.</signed>
+            </closer>
+            <trailer>THE END.</trailer>
+            <pb facs="tcp:204909:15"/>
+         </div>
+      </body>
+   </text>
+</TEI>
